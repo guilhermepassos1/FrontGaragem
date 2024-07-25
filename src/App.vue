@@ -1,7 +1,7 @@
-<script setup>
-import ListagemProdutos from '@/components/ListagemProdutos.vue';
-</script>
+<script setup></script>
 
 <template>
-  <ListagemProdutos />
+  <RouterView />
 </template>
+
+<style scoped></style>
