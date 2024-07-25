@@ -54,4 +54,3 @@ import LogoTitle from '@/components/templates/LogoTitle.vue';
   margin-top: 2.2rem;
 }
 </style>
-
