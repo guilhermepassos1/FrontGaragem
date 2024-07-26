@@ -1,5 +1,5 @@
 <script setup>
-  import { useLayout } from '@/composables/layout';
+  import { useLayout } from '@/composables/layout.js';
   const { layout } = useLayout();
 </script>
 <template>

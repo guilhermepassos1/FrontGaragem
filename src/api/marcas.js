@@ -1,19 +1,19 @@
 import axios from "axios";
 export default class MarcasApi {
   async buscarTodasAsMarcas() {
-    const { data } = await axios.get("/categorias/");
+    const { data } = await axios.get("/nomes/");
     return data.results;
   }
-  async adicionarCategoria(categoria) {
-    const { data } = await axios.post("/categorias/", categoria);
+  async adicionarNome(nome) {
+    const { data } = await axios.post("/nomes/", nome);
     return data.results;
   }
-  async atualizarCategoria(categoria) {
-    const { data } = await axios.put(`/categorias/${categoria.id}/`, categoria);
+  async atualizarNome(nome) {
+    const { data } = await axios.put(`/nomes/${nome.id}/`, nome);
     return data.results;
   }
-  async excluirCategoria(id) {
-    const { data } = await axios.delete(`/categorias/${id}/`);
+  async excluirNome(id) {
+    const { data } = await axios.delete(`/nomes/${id}/`);
     return data.results;
   }
 }
