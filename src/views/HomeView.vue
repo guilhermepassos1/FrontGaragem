@@ -26,5 +26,5 @@ onMounted(() => {
 </script>
 
 <template>
-  <p>Seja Bem Vindo!</p>
+  <h1>Seja Bem Vindo!</h1>
 </template>
