@@ -28,42 +28,7 @@ onMounted(async () => {
 </script>
 
 <template>
-  
-  <div class="product-list">
-    <router-link :to="{ name: 'ProductAdd' }">
-      <button class="icon ">
-        <i class="mdi mdi-plus" />
-      </button>
-    </router-link>
-    <div v-if="productStore.products.length === 0">
-      <p>Produtos não encontrados!!!</p>
-    </div>
-    <div
-      v-for="product in productStore.products"
-      :key="product.id"
-      class="product-card"
-    >
-      <div class="product-img-wrapper">
-        <img :src="product.image?.url" alt="product.name" />
-        <i class="mdi mdi-heart-outline" />
-      </div>
-      <div class="product-title-price">
-        <p>{{ formatTitle(product.title) }}</p>
-        <p>{{ formatPrice(product.price * 1) }}</p>
-      </div>
-      <div class="product-description-stars">
-        <p>{{ formatDescription(product.description) }}</p>
-        <div class="stars">
-          <i class="mdi mdi-star" />
-          <i class="mdi mdi-star" />
-          <i class="mdi mdi-star" />
-          <i class="mdi mdi-star" />
-          <i class="mdi mdi-star" />
-        </div>
-      </div>
-    </div>
-  </div>
-  
+  <p>qdddd</p>
 </template>
 
 <style scoped>
