@@ -14,16 +14,16 @@ import LogoTitle from '@/components/templates/LogoTitle.vue';
     <div class="divider" />
     <div class="menu">
       <router-link to="/acessorio">
-        <i class="icon mdi mdi-cart-outline" /> Acessório
+        <i class="icon mdi mdi-radio"/> Acessório
       </router-link>
       <router-link to="/categoria">
-        <i class="icon mdi mdi-cart-outline" /> Categoria
+        <i class="icon mdi mdi-tag" /> Categoria
       </router-link>
       <router-link to="/cor">
-        <i class="icon mdi mdi-cart-outline" /> Cor
+        <i class="icon mdi mdi-format-color-fill" /> Cor
       </router-link>
       <router-link to="/marca">
-        <i class="icon mdi mdi-cart-outline" /> Marca
+        <i class="icon mdi mdi-car-back" /> Marca
       </router-link>
       <router-link to="/login">
         <i class="icon mdi mdi-account" /> Login

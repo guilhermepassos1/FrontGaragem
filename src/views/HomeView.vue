@@ -26,5 +26,5 @@ onMounted(() => {
 </script>
 
 <template>
-  <p>q</p>
+  <p>Seja Bem Vindo!</p>
 </template>
