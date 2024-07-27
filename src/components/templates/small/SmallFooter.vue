@@ -61,7 +61,7 @@ onBeforeRouteUpdate(() => {
     width: 100%;
     justify-content: space-between;
     text-decoration: none;
-    color: #e90000;
+    color: #ffffff;
     font-size: 1rem;
     transition: color 0.3s;
 }

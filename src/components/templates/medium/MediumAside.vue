@@ -61,7 +61,7 @@ import LogoTitle from '@/components/templates/LogoTitle.vue';
   gap: 1rem;
   font-size: 1.3rem;
   margin-top: 2.2rem;
-  background-color: #ebebeb;
+  background-color:  #fffbfb;
   border-radius: 30px;
 }
 </style>

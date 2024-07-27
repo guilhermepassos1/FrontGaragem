@@ -21,7 +21,7 @@
 }
 
 .links a {
-  color: #000;
+  color: #fffbfb;
   text-decoration: none;
   transition: color 0.3s;
 }
@@ -32,5 +32,6 @@
   gap: 4rem;
   align-items: center;
   font-size: 2.2rem;
+  color: #fffbfb;
 }
 </style>

@@ -27,9 +27,9 @@ header {
   display: flex;
   justify-content: space-between;
   padding: 1.5rem;
-  border-bottom:#072041 2px solid;
-  background-color:#072041;
-  color: #eeeeee;
+  border-bottom:#3d3f3c 2px solid;
+  background-color:#3d3f3c;
+  color: #fffbfb;
   z-index: 10;
   position: fixed;
   left: 0;
@@ -62,7 +62,7 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  color: white;
+  color: #fffbfb;
   text-align: center;
   z-index: 10;
 }
