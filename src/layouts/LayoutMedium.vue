@@ -39,24 +39,22 @@ header {
   padding: 1.5rem;
   grid-area: header;
 }
-
 aside {
-  border-right: #eeeeee 1px solid;
-  box-shadow: 0 0 10px 0 #eeeeee;
+  border-right: #072041 1px solid;
+  box-shadow: 0 0 10px 0 #072041;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
   grid-area: aside;
+  background-color: #3d3f3c;
 }
-
 main {
   min-height: 80%;
   padding: 2rem;
   grid-area: main;
 }
-
 
 footer {
   display: flex;
@@ -67,4 +65,3 @@ footer {
   grid-area: footer;
 }
 </style>
-    

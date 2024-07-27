@@ -27,15 +27,15 @@ header {
   display: flex;
   justify-content: space-between;
   padding: 1.5rem;
-  border-bottom: #eeeeee 2px solid;
-  background-color: white;
-
+  border-bottom:#072041 2px solid;
+  background-color:#072041;
+  color: #eeeeee;
   z-index: 10;
   position: fixed;
   left: 0;
   top: 0;
   width: 100%;
-  height: 5%;
+  height: 7%;
 }
 
 main {
@@ -52,11 +52,11 @@ main {
 }
 
 footer {
-  border-top: #eeeeee 1px solid;
-  box-shadow: 0 0 10px 0 #eeeeee;
+  border-top:#072041 2px solid;
+  box-shadow: 0 0 30px 0 #072041;
   padding: 1.5rem;
   margin-top: auto;
-  background-color:  #072041;
+  background-color: #072041;
 
   position: fixed;
   left: 0;
@@ -67,4 +67,3 @@ footer {
   z-index: 10;
 }
 </style>
-

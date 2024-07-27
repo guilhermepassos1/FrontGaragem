@@ -40,14 +40,15 @@ header {
 }
 
 aside {
-  border-right: #000000 1px solid;
-  box-shadow: 0 0 10px 0 #1e2733;
+  border-right: #072041 1px solid;
+  box-shadow: 0 0 10px 0 #072041;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
   grid-area: aside;
+  background-color: #3d3f3c;
 }
 
 main {

@@ -39,16 +39,17 @@ import LogoTitle from '@/components/templates/LogoTitle.vue';
 
 .icon {
   font-size: 2rem;
-  align-self: center;
+  margin-left: 15px;
 }
 
 .divider {
   margin-top: 1rem;
-  border-top: 1px solid #eeeeee;
+  border-top: 1px solid #3d3f3c;
 }
 
 .menu {
   padding: 3rem;
+  background-color: #3d3f3c;
 }
 
 .menu a {
@@ -59,5 +60,7 @@ import LogoTitle from '@/components/templates/LogoTitle.vue';
   gap: 1rem;
   font-size: 1.3rem;
   margin-top: 2.2rem;
+  background-color: #ebebeb;
+  border-radius: 30px;
 }
 </style>

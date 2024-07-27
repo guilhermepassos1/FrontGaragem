@@ -50,9 +50,8 @@ onBeforeRouteUpdate(() => {
     right: 0;
 
     width: 20%;
-    border-top: #EEEEEE 1px solid;
-    background-color: white;
-
+    border-top:#072041 1px solid;
+    background-color:#072041;
     display: block;
     padding: 1rem;
 }
@@ -62,7 +61,7 @@ onBeforeRouteUpdate(() => {
     width: 100%;
     justify-content: space-between;
     text-decoration: none;
-    color: #282828;
+    color: #e90000;
     font-size: 1rem;
     transition: color 0.3s;
 }
@@ -81,12 +80,15 @@ onBeforeRouteUpdate(() => {
     flex-direction: column;
     align-items: center;
     text-decoration: none;
-    color: #282828;
+    color: #ffffff;
     font-size: 1rem;
     transition: color 0.3s;
 }
 
 .hamburger:hover {
     cursor: pointer;
+}
+#bottom{
+  background-color:#072041;
 }
 </style>

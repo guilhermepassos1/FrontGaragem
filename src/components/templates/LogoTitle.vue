@@ -12,6 +12,7 @@
   padding-left: 3rem;
   gap: 1rem;
   align-items: center;
+  background-color: #3d3f3c;
 }
 
 .logo img {
@@ -25,5 +26,6 @@
   font-family: 'Belleza', sans-serif;
   font-weight: 400;
   font-style: normal;
+  color: #eeee;
 }
 </style>
