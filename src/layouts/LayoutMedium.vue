@@ -57,12 +57,13 @@ main {
   grid-area: main;
 }
 
+
 footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 3rem;
-  background-color: #eeeeee;
+  background-color: #072041;
   grid-area: footer;
 }
 </style>

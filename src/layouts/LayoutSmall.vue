@@ -56,7 +56,7 @@ footer {
   box-shadow: 0 0 10px 0 #eeeeee;
   padding: 1.5rem;
   margin-top: auto;
-  background-color: white;
+  background-color:  #072041;
 
   position: fixed;
   left: 0;
@@ -67,3 +67,4 @@ footer {
   z-index: 10;
 }
 </style>
+

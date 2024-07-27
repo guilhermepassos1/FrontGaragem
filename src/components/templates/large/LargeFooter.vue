@@ -23,6 +23,7 @@
 
 .links a {
   text-decoration: none;
+  color: rgb(255, 255, 255);
 }
 
 .icons {
@@ -30,5 +31,6 @@
   display: flex;
   gap: 4rem;
   font-size: 2.2rem;
+  color: rgb(255, 255, 255);
 }
 </style>

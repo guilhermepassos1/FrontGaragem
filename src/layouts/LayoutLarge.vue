@@ -40,8 +40,8 @@ header {
 }
 
 aside {
-  border-right: #eeeeee 1px solid;
-  box-shadow: 0 0 10px 0 #eeeeee;
+  border-right: #000000 1px solid;
+  box-shadow: 0 0 10px 0 #1e2733;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -61,7 +61,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   padding: 3rem;
-  background-color: #eeeeee;
+  background-color: #072041;
   grid-area: footer;
 }
 </style>
